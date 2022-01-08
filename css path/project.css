@@ -1,0 +1,98 @@
+body {
+	background-color: background: #00416A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+	background-color: none;
+	color: #00416A;
+	width: 45%;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 60px;
+	letter-spacing: 2px;
+	padding: 10px;
+
+}
+
+#plus {
+	height: 30px;
+	border-radius: 50%;
+	border: none;
+	background-color: #004166;
+	color: #5FC3E4;
+}
+
+form {
+	background-color: none;
+	width: 30%;
+	margin: 5px auto;
+	align-items: center;
+	display: flex;
+}
+
+input {
+	height: 40px;
+	padding: 10px;
+	font-size: 30px;
+	text-align: center;
+	border: none;
+	background-color: #91EAE4;
+}
+
+#plus:hover,input:hover {
+	background-color: #FF512F;
+	color: #fff;
+	border: 2px solid #f7797d;
+}
+
+.divclass {
+	background-color: #f7797d;
+	width: 40%;
+	margin: 10px auto;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	padding: 20px;
+	border-radius: 10%;
+}
+
+.liclass {
+	flex: 1;
+	list-style: none;
+	color: white;
+	font-size: 36px;
+	font-weight: normal;
+}
+
+.liclass:nth-child(2n) {
+	background-color: #FBD786;
+	color: #203A43;
+}
+
+.delbtn, .mbtn {
+	border: none;
+	border-radius: 20%;
+	font-size: 20px;
+	background-color: #C6FFDD;
+	color: #12c2e9;
+}
+
+.delbtn:hover,.mbtn:hover {
+background-color: #f64f59;
+color: #91EAE4;
+}
+
+.mark {
+	text-decoration: line-through;
+	color: red;
+	opacity: 1;
+}
+
+.mbtn {
+	margin-right: 6px;
+}
